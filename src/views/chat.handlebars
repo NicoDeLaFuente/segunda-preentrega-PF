@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>CHAT CON WEBSOCKETS</h1>
+    <div class="chat">
+        <div class="display-messages">
+            {{#each messages}}
+            <div id={{this._id}} class="messages">
+                <small>{{this.user}}</small>
+                <p>{{this.message}}</p>
+            </div>
+            {{/each}}
+        </div>
+        <input type="text" name="message" id="userMessage">
+    </div>
+</div>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/chat.js"></script>
+ 

@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Ejemplo3",
+    "description": "ejemplo3 description",
+    "price": 500,
+    "thumbnail": [],
+    "code": "acas342",
+    "stock": 10,
+    "id": 3
+  },
+  {
+    "title": "frutiilas",
+    "description": "ejemplo4 description",
+    "price": 400,
+    "thumbnail": [],
+    "code": "zxc123",
+    "stock": 11,
+    "id": 4,
+    "status": "false"
+  },
+  {
+    "title": "Ejemplo5",
+    "description": "ejemplo5 description",
+    "price": 200,
+    "thumbnail": [],
+    "code": "zxc456",
+    "stock": 10,
+    "id": 5
+  },
+  {
+    "title": "Ejemplo6",
+    "description": "ejemplo6 description",
+    "price": 500,
+    "thumbnail": [],
+    "code": "zxc678",
+    "stock": 10,
+    "id": 6
+  },
+  {
+    "title": "Ejemplo7",
+    "description": "ejemplo7 description",
+    "price": 800,
+    "thumbnail": [],
+    "code": "zxc789",
+    "stock": 50,
+    "id": 7
+  },
+  {
+    "title": "Ejemplo8",
+    "description": "ejemplo8 description",
+    "price": 500,
+    "thumbnail": [],
+    "code": "zxc980",
+    "stock": 10,
+    "id": 8
+  },
+  {
+    "title": "Ejemplo9",
+    "description": "ejemplo9 description",
+    "price": 400,
+    "thumbnail": [],
+    "code": "zxc873",
+    "stock": 10,
+    "id": 9
+  },
+  {
+    "title": "Ejemplo10",
+    "description": "ejemplo10 description",
+    "price": 320,
+    "thumbnail": [],
+    "code": "zxc091",
+    "stock": 10,
+    "id": 10
+  },
+  {
+    "title": "producto 11",
+    "description": "Hola soy el producto 11",
+    "price": "1111",
+    "code": "zzxaq222",
+    "stock": "200",
+    "thumbnails": "foto.jpg",
+    "category": "deporte"
+  }
+]

@@ -1,0 +1,22 @@
+<div>
+    <h1 class="title">Shopping Cart {{cid}}</h1>
+    <div class="list">
+        <ul>
+            {{#each products}}
+            <li>
+                <div class="info">
+                    <h2>
+                        Producto: {{title}}
+                    </h2>
+                    <div class="description-category">
+                        <p><span>Quantity:</span> {{quantity}}</p>
+    
+                    </div>
+                    
+                <button id={{id}} class="add-to-cart">Borrar producto</button>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>
+<script src="./js/carts.js"></script>
