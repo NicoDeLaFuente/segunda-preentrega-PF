@@ -1,4 +1,4 @@
-<div>
+{{!-- <div>
     <h1 class="title">Lista de productos.</h1>
     <div class="list">
         <ul>
@@ -18,11 +18,28 @@
                     </div>
                 </div>
                 <div class="thumbnails">
-                        <img src={{this.thumbnails}} alt={{title}}>
+                    <img src={{this.thumbnails}} alt={{title}}>
                 </div>
             </li>
             {{/each}}
         </ul>
     </div>
+</div> --}}
+<div class="container-shop">
+    <h1 class="shop-title">Shop</h1>
+    <ul class="list-container">
+        {{#each products}}
+        <li class="item-card" id={{code}} >
+            <img src={{this.thumbnails}} alt={`Imagen del producto {{title}}`} />
+            <div>
+                <h4>{{title}}</h4>
+                <p class="subtitle">{{description}}</p>
+                <p>USD <span>{{price}}</span></p>
+            </div>
+            <button class="add-to-cart" id={{_id}}>Add To Cart</button>
+        </li>
+        {{/each}}
+    </ul>
 </div>
+
 <script src="./js/script.js"></script>

@@ -9,6 +9,21 @@ async function createCartAndAddProducts () {
     const cartData = await cartResponse.json(); // Parse the response JSON
     const cid = cartData.data._id; // Extraigo el ID del carrito que se creo recientemente
 
+    console.log(cid)
+    const goToCart = document.querySelector(".go-to-cart")
+    goToCart.addEventListener("click", async (event) => {
+      try{
+        event.preventDefault()
+        window.location.href = `cart/${cid}`
+      }
+      catch (err) {
+        console.log("no se pudo ir al carrito")
+      }
+      
+    })
+
+
+
   const addToCart = document.querySelectorAll(".add-to-cart");
   addToCart.forEach((button) => {
     button.addEventListener("click", () => {
