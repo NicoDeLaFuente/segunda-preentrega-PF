@@ -21,16 +21,15 @@ import { addMessages, getMessages } from "./dao/dbManagers/messageManager.js";
 import mongoose from "mongoose";
 
 //instancio dotenv
-dotenv.config();
+dotenv.config()
 
 const app = express();
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 /* ver porque no me toma la variable de entorno. */
 const MONGO_URI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://coderhouse:123@cluster0.empwwtw.mongodb.net/ecommerce";
+  process.env.MONGO_URI 
 
 /* conexion a la BBDD de MongoDB */
 let dbConnect = mongoose.connect(MONGO_URI);
